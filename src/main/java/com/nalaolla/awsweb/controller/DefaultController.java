@@ -17,4 +17,13 @@ public class DefaultController {
 
         return "/main";
     }
+
+    @GetMapping("error")
+    public String error(Model model) {
+
+        model.addAttribute("title", "awsweb error");
+        model.addAttribute("contents", "awsweb error");
+
+        return "/error";
+    }
 }
