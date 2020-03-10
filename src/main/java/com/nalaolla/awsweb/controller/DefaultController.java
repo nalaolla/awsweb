@@ -18,7 +18,7 @@ public class DefaultController {
         model.addAttribute("title", "awsweb title");
         model.addAttribute("contents", "awsweb contents");
 
-        return "/main";
+        return "main";
     }
 
     @GetMapping("error")
@@ -27,7 +27,7 @@ public class DefaultController {
         model.addAttribute("title", "awsweb error");
         model.addAttribute("contents", "awsweb error");
 
-        return "/error";
+        return "error";
     }
 
     @PostMapping("error")
@@ -36,6 +36,6 @@ public class DefaultController {
         model.addAttribute("title", "awsweb error");
         model.addAttribute("contents", "awsweb error");
 
-        return "/error";
+        return "error";
     }
 }
