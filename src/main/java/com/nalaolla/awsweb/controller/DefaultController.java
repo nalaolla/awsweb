@@ -30,7 +30,7 @@ public class DefaultController {
         return "error";
     }
 
-    @PostMapping("")
+    @GetMapping("")
     public String postError(Model model) {
 
         model.addAttribute("title", "awsweb error");
