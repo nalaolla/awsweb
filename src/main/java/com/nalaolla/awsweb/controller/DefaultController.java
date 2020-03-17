@@ -33,8 +33,8 @@ public class DefaultController {
     @GetMapping("")
     public String postError(Model model) {
 
-        model.addAttribute("title", "awsweb error");
-        model.addAttribute("contents", "awsweb error");
+        model.addAttribute("title", "awsweb default");
+        model.addAttribute("contents", "awsweb default");
 
         return "default";
     }
