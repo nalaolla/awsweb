@@ -38,7 +38,8 @@ public class DefaultController {
 
         model.addAttribute("title", "awsweb default");
         model.addAttribute("contents", "awsweb default");
-
+//        logger.debug("배포테스트");
+        System.out.println("배포테스트 진행");
         return "default";
     }
 }
