@@ -20,7 +20,7 @@ public class DefaultController {
 
         model.addAttribute("title", "awsweb title");
         model.addAttribute("contents", "awsweb contents");
-        logger.debug("main");
+        logger.debug("배포테스트");
         return "main";
     }
 
